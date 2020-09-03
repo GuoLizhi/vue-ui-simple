@@ -8,6 +8,11 @@ const routes = [
     path: '/flex',
     name: 'flex',
     component: () => import(/* webpackChunkName: 'flex' */'@/views/flex/')
+  },
+  {
+    path: '/wing-blank',
+    name: 'wing-blank',
+    component: () => import(/* webpackChunkName: 'wing-blank' */'@/views/wing-blank/')
   }
 ]
 
