@@ -13,6 +13,11 @@ const routes = [
     path: '/wing-blank',
     name: 'wing-blank',
     component: () => import(/* webpackChunkName: 'wing-blank' */'@/views/wing-blank/')
+  },
+  {
+    path: '/white-space',
+    name: 'white-space',
+    component: () => import(/* webpackChunkName: 'white-space' */'@/views/white-space/')
   }
 ]
 
